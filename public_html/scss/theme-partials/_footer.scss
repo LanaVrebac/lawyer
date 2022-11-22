@@ -1,0 +1,22 @@
+$footer-text:#586C88;
+
+$social-text:#312E3F;
+footer{
+    padding:15px  0 25px;
+    .social {
+       a{color:$social-text;
+        font-size:3rem;
+        transition:1s linear;
+        margin:0 5px;
+        &:hover{
+            transform:rotate(360deg);
+        }} 
+    }
+    .copyright{
+        color:$footer-text;
+        font-weight: $font-weight-medium;
+        font-size:1.2rem;
+        line-height: 4.1rem;
+        a{color:$footer-text};
+    }
+}
