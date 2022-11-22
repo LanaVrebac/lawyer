@@ -1,0 +1,29 @@
+
+.team-section{
+    padding:67px 0 61px;
+    .team-more{
+        text-transform: uppercase;
+        font-weight: $font-weight-medium;
+        font-size:14px;
+        line-height: 17px;
+    }
+    .tem-member-name{
+        margin-bottom: 1.5rem;
+        a{line-height: 27px;
+        font-size: 22px;}
+        
+    }
+    .team-memebr-info{
+        margin-bottom: 3rem;
+    }
+    .fa-linkedin-in{
+        color:$gray-900;
+        font-size:3rem;
+    }
+}
+
+@media(min-width:576px){
+    .team-memebr-info{
+        margin-bottom: 10rem;
+    }
+}
