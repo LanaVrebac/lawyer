@@ -12,3 +12,16 @@ $font-weight-medium:500;
 $navbar-light-color:$gray-900;
 $navbar-light-hover-color:$primary;
 $navbar-light-active-color:$primary;
+// This variable affects the `.h-*` and `.w-*` classes.
+$sizes: () ;
+$sizes: map-merge(
+(20:10%,
+80:80%,
+25: 25%,
+50: 50%,
+75: 75%,
+100: 100%,
+auto: auto
+),
+$sizes
+);
