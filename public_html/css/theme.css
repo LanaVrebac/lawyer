@@ -9944,6 +9944,20 @@ header .navbar-nav a {
   overflow: hidden;
 }
 
+.service-section .service-content {
+  padding: 50px 0;
+}
+
+.service-section .service-content ul {
+  list-style: none;
+}
+
+@media (min-width: 992px) {
+  .service-content {
+    padding: 107px 0;
+  }
+}
+
 .team-section {
   padding: 67px 0 61px;
 }
