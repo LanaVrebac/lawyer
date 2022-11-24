@@ -27,3 +27,54 @@
         margin-bottom: 10rem;
     }
 }
+
+//team-members
+
+.team-members{
+    padding: 50px 0;
+    
+    .team-member{
+        figure{
+            overflow: hidden;
+            img{
+                transition:1s linear;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+        .fa-linkedin-in{
+            position: absolute;
+            bottom:16px;
+            right:15px;
+            color: $white;
+            font-size: 2.8rem;
+            z-index: 5;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+        h5{a{
+               color:#1E1E1E;
+               font-size:2.2rem;
+               line-height: 2.7rem;
+               &:hover{
+                text-decoration: none;
+            }
+           }
+            
+        }
+        .team-member-position{
+            color:$primary;
+            line-height: 2.7rem;
+            font-size: 1.8rem;
+            font-weight: $font-weight-medium;
+        }
+    }
+}
+
+@media(min-width:992px){
+ .team-members{
+    padding: 64px 0 133px;
+}   
+}
