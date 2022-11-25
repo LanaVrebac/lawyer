@@ -1,0 +1,20 @@
+.news-page-section{
+    .lead-section-title{
+        font-size:3.6rem;
+        line-height: 4.6rem;
+    }
+}
+
+.news-single-content{
+    img{width: 100%;}
+    padding:67px 0;
+    p{
+        margin-bottom: 3rem;
+    }
+}
+.news-tags{
+    a{text-transform: lowercase;}
+    .tag-title{
+        font-weight: $font-weight-medium;
+    }
+}
